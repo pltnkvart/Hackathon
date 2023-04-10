@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Демо-торги</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="header_styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+	<link type="image/x-icon" href="images/favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images/favicon.png" rel="icon">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="nav-links">    
+			<div class="logo-container">
+				<img src="images/favicon.png" alt="Логотип" class="logo">
+			</div>
+			<li><a href="start.html" class="nav-link">Торги</a></li>
+			<li><a href="#" class="nav-link">Услуги и сервисы</a></li>
+			<li><a href="#" class="nav-link">Клиентам</a></li>
+			<li><a href="#" class="nav-link">О площадке</a></li>
+			<li><a href="#" class="nav-link">Помощь</a></li>
+			<li><a href="achievements.html" class="nav-link">Мои Достижения</a></li>
+			<li><a href="#" class="nav-link">Регистрация</a></li>
+			<li><a href="#" class="nav-link login">Войти</a></li>
+		</nav>
+	</header>
+	<main>	  
+		<section>
+			<h2>Поданные ценовые предложения</h2>
+			<table>
+				<tr>
+					<th>Пользователь</th>
+					<th>Заявка, руб.</th>
+					<th>Время</th>
+				</tr>
+				<tr>
+					<td>Начальная ставка:</td>
+					<td>1000000</td>
+					<td></td>
+				</tr>
+			</table>
+		</section>
+		<section>
+			<h2>Новое ценовое предложение</h2>
+			<form>
+				<div id="timer">Времени до окончания: 15 секунд</div>
+				<label for="price">Ваше предложение:</label>
+				<input type="number" id="price" name="price" required>
+				<input type="submit" id="last-price-btn" value="Подать предложение">
+			</form>
+		</section>
+		
+	</main>
+	<div id="results"></div>
+	<div class="button_reg">
+		<a class="button" href="https://www.roseltorg.ru/">Зарегистрироваться</a>
+	</div>
+	<footer>
+	</footer>
+	<script src="script.js"></script>		
+</body>
+</html>
